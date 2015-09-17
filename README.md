@@ -5,7 +5,7 @@ This is a test Rails project to demonstrate issues I'm having using Browser-Sync
 
 ## To Run This Rails Project
 
-You will need Git, RVM and a version of npm installed.
+You will need Git, RVM and npm installed.
 
 Clone the repository:
 
