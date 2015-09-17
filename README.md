@@ -7,22 +7,37 @@ This is a test Rails project to demonstrate issues I'm having using Browser-Sync
 
 You will need Git, RVM and a version of npm installed.
 
-1. Clone the repository:
-`git clone https://github.com/smaboshe/Lumangwe.git`
+Clone the repository:
 
-2. Install the required gems:
-`cd Lumangwe`
-`gem install bundler` (if bundler is not already installed)
-`bundle install`
+```
+git clone https://github.com/smaboshe/Lumangwe.git
+```
 
-3. Install BrowserSync:
-`npm install browser-sync`
+Install the required gems:
 
-3. Run the Rails application:
+```
+cd Lumangwe
+gem install bundler # if bundler is not already installed
+bundle install
+```
+
+Install BrowserSync:
+
+```
+npm install browser-sync
+```
+
+Run the Rails application:
+
+```
 rails server
+```
 
-4. Start BrowserSync:
-`./node_modules/.bin/browser-sync start --proxy localhost:3000 --files "app/**/*, config/locales/*.yml" --no-open`
+Start BrowserSync:
+
+```
+./node_modules/.bin/browser-sync start --proxy localhost:3000 --files "app/**/*, config/locales/*.yml" --no-open
+```
 
 
 ## BrowserSync Issue Page
